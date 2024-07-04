@@ -1,0 +1,28 @@
+class Student
+{
+int admno;
+String name;
+void get()
+{
+admno=55;
+name="honey";
+}
+void show()
+{
+System.out.println(admno+" "+name);
+}
+public static void main(String args[])
+{
+Student S1=new Student();
+S1.get();
+S1.show();
+Student S2=new Student();
+S2.get();
+S2.show();
+}
+}
+C:\javacrt>javac Student.java
+
+C:\javacrt>java Student
+55 honey
+55 honey
