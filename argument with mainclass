@@ -1,0 +1,29 @@
+class Student
+{
+int admno;
+String name;
+void get(int x,String y)
+{
+admno=x;
+name=y;
+}
+void show()
+{
+System.out.println(admno+" "+name);
+}
+}
+class Test
+{
+public static void main(String args[])
+{
+Student S1=new Student();
+S1.get(101,"hari");
+S1.show();
+Student S2=new Student();
+S2.get(102,"honey");
+S2.show();
+}
+}
+C:\javacrt>java Test
+101 hari
+102 honey
