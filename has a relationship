@@ -1,0 +1,42 @@
+class Student
+{
+int admno=1430;
+String name="hari";
+void display()
+{
+System.out.println("--------------------------");
+System.out.println("student report");
+System.out.println("---------------------------");
+}
+}
+class Marks
+{
+int mat=87,phy=78,chem=86;
+void show()
+{
+Student s1=new Student();
+s1.display();
+System.out.println("Admno="+s1.admno);
+System.out.println("Name="+s1.name);
+System.out.println("Maths="+mat);
+System.out.println("Physic="+phy);
+System.out.println("Chemistry="+chem);
+}
+}
+class Test
+{
+public static void main(String srgs[])
+{
+Marks m1=new Marks();
+m1.show();
+}
+}
+output:
+--------------------------
+student report
+---------------------------
+Admno=1430
+Name=hari
+Maths=87
+Physic=78
+Chemistry=86
