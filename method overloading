@@ -1,0 +1,27 @@
+class Test4
+{
+void add(int a,int b)
+{
+System.out.println("two int arg method");
+}
+void add(int a,int b,int c)
+{
+System.out.println("three int arg method");
+}
+void add(double a,double b)
+{
+System.out.println("two double arg method");
+}
+public static void main(String srgs[])
+{
+Test4 t1=new Test4();
+t1.add(12,13,14);
+t1.add(12.5,13.4);
+t1.add(54,24);
+}
+}
+
+output:
+three int arg method
+two double arg method
+two int arg method
