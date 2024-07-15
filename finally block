@@ -1,0 +1,26 @@
+class Hari
+{
+public static void main(String args[])
+{
+try
+{
+System.out.println("try block");
+System.out.println(10/2);
+}
+catch(ArithmeticException e)
+{
+System.out.println("catch block");
+}
+finally
+{
+System.out.println("finally block");
+}
+System.out.println("end of the program");
+}
+}
+output:
+C:\javacrt>java Hari
+try block
+5
+finally block
+end of the program
